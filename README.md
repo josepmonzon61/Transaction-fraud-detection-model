@@ -1,6 +1,7 @@
 # Transaction-fraud-detection-model
 (I did almost all the model with AI. I'd tried my Orthogonalization technics)
-Summary of the Fraud Detection Model
+
+Summary of the Fraud Detection Model.
 
 Model Overview:
 he model is designed to detect fraudulent transactions in a credit card dataset. It is a neural network built using TensorFlow and Keras, which leverages multiple dense (fully connected) layers with ReLU activations and dropout layers to prevent overfitting. The final layer uses a sigmoid activation function to output a probability score between 0 and 1, indicating the likelihood of a transaction being fraudulent. The model is trained using binary cross-entropy loss and the Adam optimizer.
