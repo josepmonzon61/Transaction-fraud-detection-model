@@ -1,5 +1,5 @@
 # Transaction-fraud-detection-model
-
+(I did almost all the model with AI. I'd tried my Orthogonalization technics)
 Summary of the Fraud Detection Model
 
 Model Overview:
