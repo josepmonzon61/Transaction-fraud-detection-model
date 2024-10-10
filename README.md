@@ -1,11 +1,14 @@
 # Transaction-fraud-detection-model
 (I did almost all the model with AI. I'd tried my Orthogonalization technics)
 
-Summary of the Fraud Detection Model.
+#Summary of the Fraud Detection Model.
 
 Model Overview:
 he model is designed to detect fraudulent transactions in a credit card dataset. It is a neural network built using TensorFlow and Keras, which leverages multiple dense (fully connected) layers with ReLU activations and dropout layers to prevent overfitting. The final layer uses a sigmoid activation function to output a probability score between 0 and 1, indicating the likelihood of a transaction being fraudulent. The model is trained using binary cross-entropy loss and the Adam optimizer.
 
+#Data.
+
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 The dataset used is the Credit Card Fraud Detection dataset, available on Kaggle. It contains transactions made by credit cards in September 2013 by European cardholders. The dataset includes:
 
@@ -25,7 +28,7 @@ Data Characteristics:
 -Preprocessing Steps: The data preprocessing includes separating features and the target variable, splitting the data into training, validation, and test sets, and normalizing the features using StandardScaler to ensure all features contribute equally to the model.
 
 
-Model Evaluation metrics:
+#Model Evaluation metrics:
 
 -Confusion Matrix: Shows true positives, true negatives, false positives, and false negatives, giving a clear picture of the model's performance.
 
@@ -34,6 +37,4 @@ Model Evaluation metrics:
 -F1-Score: The harmonic mean of precision and recall, providing a balance between the two.
 
 -ROC-AUC Score: Measures the area under the receiver operating characteristic curve, summarizing the model's ability to distinguish between the classes at various thresholds.
-
-These metrics help in understanding the model's effectiveness in identifying fraudulent transactions while minimizing false positives and false negatives.
 
